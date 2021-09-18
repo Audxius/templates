@@ -1,3 +1,4 @@
+//for code explanation refer to "insert.cpp"
 #include <iostream>
 using namespace std;
 void print(int &n, int A[]);
