@@ -19,7 +19,7 @@ int main()
 
     n = n + 1;
     //makes 1 more loop so the theres space for the new element
-    for (int i = n; i > place; i--)
+    for (int i = n; i > place; i--) //IMPORTANT make sure i > place, not n and is i--, not ++
     {
         A[i] = A[i - 1];
         //pushes everything forwards to make an empty spot for the new element
