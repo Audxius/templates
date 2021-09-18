@@ -25,7 +25,7 @@ int main()
             //compares values and switches them places if needed
         }
     }
-    //2 loops used to compare different index numbers within the same array
+    //2 loops are used to compare numbers with different indexes within the same array
 
     for (int i = 0; i < n; i++)
         cout << A[i] << " ";
